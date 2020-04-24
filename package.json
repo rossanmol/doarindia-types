@@ -1,16 +1,19 @@
 {
-  "name": "doarindia-types",
-  "version": "1.0.7",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "scripts": {
-    "prepublish": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "tslib": "^1.11.1"
-  },
-  "description": ""
+	"name": "doarindia-types",
+	"version": "1.0.8",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"scripts": {
+		"prepublish": "tsc",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"tslib": "^1.11.1"
+	},
+	"devDependencies": {
+		"tslint": "^6.1.1"
+	},
+	"description": ""
 }
