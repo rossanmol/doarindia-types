@@ -12,8 +12,12 @@ export const enum FeatureItemDeleteStatus {
 	batchDeleteError = "batch-delete-error"
 }
 
-export interface ItemDeleteResponse {
-	status: FeatureItemDeleteStatus;
+export const enum FeatureItemPublishStatus {
+	success = "success",
+	error = "error",
+	notEnoughApprovals = "not-enough-approvals",
+	oneOrMoreRejects = "one-or-more-rejects",
+	missingThumbnail = "missing-thumbnail"
 }
 
 export const enum FEATURE_TYPE {
