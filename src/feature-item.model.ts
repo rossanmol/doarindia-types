@@ -3,7 +3,7 @@ import {
 	FeatureItemCollection,
 	ITEM_ACTION_TYPE,
 	FeatureItemDeleteStatus,
-	ItemPublishStatus
+	FeatureItemPublishStatus
 } from "./feature-item.const";
 
 export interface ThumbnailRequirement {
@@ -30,10 +30,10 @@ export interface ModeratorRequirement<T = FeatureItem> {
 	votesRequired: number;
 }
 
-export interface ItemPublishResponse {
-	status: ItemPublishStatus;
+export interface FeatureItemPublishResponse {
+	status: FeatureItemPublishStatus;
 }
 
-export interface ItemDeleteResponse {
+export interface FeatureItemDeleteResponse {
 	status: FeatureItemDeleteStatus;
 }

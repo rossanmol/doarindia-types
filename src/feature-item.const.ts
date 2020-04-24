@@ -8,6 +8,7 @@ export const enum FeatureItemError {
 
 export const enum FeatureItemDeleteStatus {
 	success = "success",
+	error = "error",
 	dependenciesNotEmpty = "dependencies-not-empty",
 	batchDeleteError = "batch-delete-error"
 }
