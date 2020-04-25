@@ -5,6 +5,7 @@
 	"types": "dist/index.d.ts",
 	"scripts": {
 		"prepublish": "tsc && npm version patch -m 'publish'",
+		"postpublish": "git push",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"author": "",
