@@ -71,6 +71,12 @@ export const MODERATOR_FEATURE: FeatureItems = {
 			[ITEM_ACTION_TYPE.edit]: 1,
 			[ITEM_ACTION_TYPE.hide]: 1
 		},
-		thumbnailRequirements: []
+		thumbnailRequirements: [
+			{
+				name: "rectangular",
+				ratio: { width: 16, height: 9 },
+				dimension: { width: 320, height: 180 }
+			}
+		]
 	}
 };
