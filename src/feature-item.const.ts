@@ -21,7 +21,7 @@ export const enum FeatureItemPublishStatus {
 	missingThumbnail = "missing-thumbnail"
 }
 
-export const enum FEATURE_TYPE {
+export enum FEATURE_TYPE {
 	series = "series",
 	episode = "episode"
 }
